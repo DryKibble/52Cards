@@ -10,7 +10,16 @@ The terminal script will open up your terminal and it will log any errors/crashe
 If you do encounter a bug/crash and you'd like to report it, it would be helpful for me
 to see the error message and any footage of the bug as well as what happened while you were playing
 so I can fix it.
+
+DO NOT STEAL MY CODE, ART, OR ANY ASSETS!! I MADE ALL THIS BY MYSELF SO DONT YOU DARE AND I WILL
+THROW HANDS
+
 Any changes will be noted in the changelog below:
 
 10/2/25:
     Released with Slapjack, Egyptian Rat Screw, and Solitaire
+
+10/7/25:
+    Added Speed to the game files. I did not test the actual production build.
+    You are my play testers now because I feel bad about putting so much testing on
+    my play tester
