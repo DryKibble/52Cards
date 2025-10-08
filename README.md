@@ -23,3 +23,9 @@ Any changes will be noted in the changelog below:
     Added Speed to the game files. I did not test the actual production build.
     You are my play testers now because I feel bad about putting so much testing on
     my play tester
+
+    Suggestions:
+        Solitaire: auto-sort cards when all cards are revealed
+
+    Found bugs:
+        Solitaire: When using a touch-screen computer, some graphic glitches can occur
