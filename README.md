@@ -28,4 +28,25 @@ Any changes will be noted in the changelog below:
         Solitaire: auto-sort cards when all cards are revealed
 
     Found bugs:
-        Solitaire: When using a touch-screen computer, some graphic glitches can occur
+        Solitaire: When an Ace pile has say a 4, and you want to move a 5 to it,
+                    if that 5 has something under it, then the 5 + whatever is under it
+                    will move to the Ace pile.
+                    Expected behavior: the 5 + whatever is under it won't move to the Ace pile,
+                        only between other non-Ace piles
+        Title Screen: Solitaire's customization options (none) are not overriding
+                        other games' customization options
+
+10/9/25:
+
+    Fixed bugs:
+        10/7/25 Title Screen: Solitaire's customization options (none) are not overriding
+                        other games' customization options
+                Solitaire: When an Ace pile has say a 4, and you want to move a 5 to it,
+                    if that 5 has something under it, then the 5 + whatever is under it
+                    will move to the Ace pile.
+                    Expected behavior: the 5 + whatever is under it won't move to the Ace pile,
+                        only between other non-Ace piles
+    Found bugs:
+        Solitaire: Restart isn't working
+    In testing:
+        Solitaire: Autosort when all cards are flipped over
