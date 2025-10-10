@@ -56,3 +56,11 @@ Any changes will be noted in the changelog below:
         Solitaire: Autosort when all cards are flipped over (implemented at ~10:30)
         All games: proper win/lose screens
 
+10/10/25:
+    Fixed bugs:
+        Solitaire: When restarting the game and there are cards next to the Deck pile,
+                    the cards are not reparented properly
+        Egyptian Rat Screw: When there is a draw, the game does not transition
+                    to the Out state and quit
+
+
