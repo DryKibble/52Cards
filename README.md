@@ -38,6 +38,9 @@ Any changes will be noted in the changelog below:
 
 10/9/25:
 
+    Found bugs:
+        Solitaire: Restart isn't working
+
     Fixed bugs:
         10/7/25 Title Screen: Solitaire's customization options (none) are not overriding
                         other games' customization options
@@ -46,7 +49,10 @@ Any changes will be noted in the changelog below:
                     will move to the Ace pile.
                     Expected behavior: the 5 + whatever is under it won't move to the Ace pile,
                         only between other non-Ace piles
-    Found bugs:
-        Solitaire: Restart isn't working
+
+        10/9/25 Solitaire: Restart now works as expected
+
     In testing:
-        Solitaire: Autosort when all cards are flipped over
+        Solitaire: Autosort when all cards are flipped over (implemented at ~10:30)
+        All games: proper win/lose screens
+
