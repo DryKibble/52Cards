@@ -62,5 +62,10 @@ Any changes will be noted in the changelog below:
                     the cards are not reparented properly
         Egyptian Rat Screw: When there is a draw, the game does not transition
                     to the Out state and quit
+        Added: Win/lose screens to each game
 
+    Found bugs:
+        Solitaire: Clicking the deck over and over and undoing/redoing can sometimes
+                    cause the incorrect undo/redo history to be played out, and
+                    potentially cause a crash
 
