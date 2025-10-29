@@ -69,3 +69,11 @@ Any changes will be noted in the changelog below:
                     cause the incorrect undo/redo history to be played out, and
                     potentially cause a crash
 
+10/27/25:
+    Found bugs:
+        Egyptian Rat Screw: When there is a draw, the game does not transition
+                    to the Out state and quit (I thought I fixed this, but it wasn't)
+
+10/29/25:
+    Possibly Fixed Bugs: Egyptian Rat Screw: When there is a draw, the game does not transition
+                    to the Out state and quit
