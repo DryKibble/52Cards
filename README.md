@@ -16,6 +16,10 @@ THROW HANDS
 
 Any changes will be noted in the changelog below:
 
+10/31/25:
+    Reworked Egyptian Rat Screw. May or may not be fixed, just like Slapjack. Solitaire is
+        still as broken as it was before. Stay tuned.
+
 10/30/25:
     Changelog updated so that more recent changes are at the top instead of the bottom.
     Completely reworked Slapjack to fix a untraceable bug it was having. This has completely
