@@ -16,25 +16,33 @@ THROW HANDS
 
 Any changes will be noted in the changelog below:
 
-10/2/25:
-    Released with Slapjack, Egyptian Rat Screw, and Solitaire
+10/30/25:
+    Changelog updated so that more recent changes are at the top instead of the bottom.
+    Completely reworked Slapjack to fix a untraceable bug it was having. This has completely
+        broken Egyptian Rat Screw and a tiny piece of Solitaire. They will be reworked and fixed
+        as well, but for now consider them unplayable.
 
-10/7/25:
-    Added Speed to the game files. I did not test the actual production build.
-    You are my play testers now because I feel bad about putting so much testing on
-    my play tester
+10/29/25:
+    Possibly Fixed Bugs: Egyptian Rat Screw: When there is a draw, the game does not transition
+                    to the Out state and quit
 
-    Suggestions:
-        Solitaire: auto-sort cards when all cards are revealed
+10/27/25:
+    Found bugs:
+        Egyptian Rat Screw: When there is a draw, the game does not transition
+                    to the Out state and quit (I thought I fixed this, but it wasn't)
+
+10/10/25:
+    Fixed bugs:
+        Solitaire: When restarting the game and there are cards next to the Deck pile,
+                    the cards are not reparented properly
+        Egyptian Rat Screw: When there is a draw, the game does not transition
+                    to the Out state and quit
+        Added: Win/lose screens to each game
 
     Found bugs:
-        Solitaire: When an Ace pile has say a 4, and you want to move a 5 to it,
-                    if that 5 has something under it, then the 5 + whatever is under it
-                    will move to the Ace pile.
-                    Expected behavior: the 5 + whatever is under it won't move to the Ace pile,
-                        only between other non-Ace piles
-        Title Screen: Solitaire's customization options (none) are not overriding
-                        other games' customization options
+        Solitaire: Clicking the deck over and over and undoing/redoing can sometimes
+                    cause the incorrect undo/redo history to be played out, and
+                    potentially cause a crash
 
 10/9/25:
 
@@ -56,24 +64,22 @@ Any changes will be noted in the changelog below:
         Solitaire: Autosort when all cards are flipped over (implemented at ~10:30)
         All games: proper win/lose screens
 
-10/10/25:
-    Fixed bugs:
-        Solitaire: When restarting the game and there are cards next to the Deck pile,
-                    the cards are not reparented properly
-        Egyptian Rat Screw: When there is a draw, the game does not transition
-                    to the Out state and quit
-        Added: Win/lose screens to each game
+10/7/25:
+    Added Speed to the game files. I did not test the actual production build.
+    You are my play testers now because I feel bad about putting so much testing on
+    my play tester
+
+    Suggestions:
+        Solitaire: auto-sort cards when all cards are revealed
 
     Found bugs:
-        Solitaire: Clicking the deck over and over and undoing/redoing can sometimes
-                    cause the incorrect undo/redo history to be played out, and
-                    potentially cause a crash
+        Solitaire: When an Ace pile has say a 4, and you want to move a 5 to it,
+                    if that 5 has something under it, then the 5 + whatever is under it
+                    will move to the Ace pile.
+                    Expected behavior: the 5 + whatever is under it won't move to the Ace pile,
+                        only between other non-Ace piles
+        Title Screen: Solitaire's customization options (none) are not overriding
+                        other games' customization options
 
-10/27/25:
-    Found bugs:
-        Egyptian Rat Screw: When there is a draw, the game does not transition
-                    to the Out state and quit (I thought I fixed this, but it wasn't)
-
-10/29/25:
-    Possibly Fixed Bugs: Egyptian Rat Screw: When there is a draw, the game does not transition
-                    to the Out state and quit
+10/2/25:
+    Released with Slapjack, Egyptian Rat Screw, and Solitaire
